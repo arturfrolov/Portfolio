@@ -2,7 +2,6 @@
     min-height: 600px;
     padding-top: 120px;
     &__grid {
-        // padding-right: 100px;
         display: grid;
         grid-template-columns: 400px 1fr;
         grid-template-rows: minmax(243px, auto) minmax(255px, auto);

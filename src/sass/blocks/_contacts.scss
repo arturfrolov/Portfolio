@@ -52,6 +52,16 @@
             top: -9px;
             left: 12px;
         }
+        .invalid {
+            border: 1px solid red;
+        }
+        label.invalid {
+            background: none;
+            border: none;
+            position: absolute;
+            top: 50px;
+            left: -5px;
+        }
     }
     &__triggers {
         grid-column: 1/3;

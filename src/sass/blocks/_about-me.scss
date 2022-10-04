@@ -45,7 +45,7 @@
         display: grid;
         grid-template-columns: repeat(2, 260px);
         grid-template-rows: minmax(116px, auto) minmax(116px, auto);
-        grid-auto-rows: 1fr;
+        grid-auto-rows: minmax(116px, auto);
         gap: 20px 50px;
     }
 }

@@ -15,4 +15,4 @@ const percentages = document.querySelectorAll('.skills__rating-percentages'),
 
 percentages.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
-})
+});

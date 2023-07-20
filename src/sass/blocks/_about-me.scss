@@ -38,6 +38,9 @@
         color: #000000;
         font-size: 14px;
         line-height: 21px;
+        p {
+            margin-bottom: 0.5rem;
+        }
     }
     &__cart-grid {
         // grid-column: 2/3;

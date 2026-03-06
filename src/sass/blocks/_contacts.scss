@@ -70,13 +70,21 @@
         column-gap: 35px;
     }
     &__policy {
-        // align-self: center;
         font-size: 12px;
         line-height: 14px;
         display: flex;
         align-items: center;
         input {
             margin-right: 10px;
+        }
+        label {
+            position: static;
+            display: inline;
+            height: auto;
+            padding: 0;
+            background: none;
+            top: auto;
+            left: auto;
         }
     }
     &__input {

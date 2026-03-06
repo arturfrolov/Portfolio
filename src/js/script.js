@@ -10,12 +10,14 @@ function openMenu() {
     menu.classList.add('active');
     menu.setAttribute('aria-hidden', 'false');
     hamburger.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
 }
 
 function closeMenu() {
     menu.classList.remove('active');
     menu.setAttribute('aria-hidden', 'true');
     hamburger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
 }
 
 hamburger.addEventListener('click', openMenu);

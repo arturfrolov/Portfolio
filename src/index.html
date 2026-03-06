@@ -4,24 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <meta name="title" content="My portfolio">
+    <title>Artur Frolov | Front-End Developer</title>
+    <meta name="title" content="Artur Frolov | Front-End Developer">
     <meta name="description" content="Here you can explore my works and learn more about me.">
+    <link rel="canonical" href="https://arturfrolov.github.io/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://arturfrolov.github.io">
-    <meta property="og:title" content="My portfolio">
-    <meta property="og:description" content="ЗHere you can explore my works and learn more about me.">
-    <meta property="og:image" content="img/og_image.jpg">
+    <meta property="og:title" content="Artur Frolov | Front-End Developer">
+    <meta property="og:description" content="Here you can explore my works and learn more about me.">
+    <meta property="og:image" content="https://arturfrolov.github.io/img/og_image.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://arturfrolov.github.io">
-    <meta property="twitter:title" content="My portfolio">
+    <meta property="twitter:title" content="Artur Frolov | Front-End Developer">
     <meta property="twitter:description" content="Here you can explore my works and learn more about me.">
-    <meta property="twitter:image" content="img/og_image.jpg">
-    
+    <meta property="twitter:image" content="https://arturfrolov.github.io/img/og_image.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Artur Frolov",
+      "url": "https://arturfrolov.github.io",
+      "jobTitle": "Front-End Developer",
+      "sameAs": [
+        "https://github.com/arturfrolov"
+      ]
+    }
+    </script>
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/apple-icon-60x60.png">
@@ -124,16 +139,11 @@
         <div class="container">
             <div class="about-me__grid">
                 <div class="about-me__photo">
-                    <!-- <img srcset="img/photo_min.jpg 300w,
-                                img/photo.jpg 400w"
-                        sizes="(max-width: 575px) 280px,
-                                (min-width: 576px) 400px"
-                    src="img/photo.jpg" alt="photo"> -->
                     <picture>
                         <!-- <source type="image/webp" srcset="img/photo.webp"> -->
                         <source media="(max-width: 575px)" srcset="img/photo_min.jpg">
                         <source media="(min-width: 576px)" srcset="img/photo.jpg">
-                        <img src="img/photo.jpg" alt="photo">
+                        <img src="img/photo.jpg" alt="Artur Frolov — front-end developer">
                     </picture>
                 </div>
                 <div class="about-me__wrapper">
@@ -157,7 +167,7 @@
                         <div class="cart-item__descr">
                             <div class="title title_fs14">Web Development</div>
                             <div class="cart-item__text">
-                                I excel in creating dynamic and responsive websites using HTML, CSS, and JavaScript. My code is clean, efficient, and designed to experiences across devices and browsers.
+                                I excel in creating dynamic and responsive websites using HTML, CSS, and JavaScript. My code is clean, efficient, and designed to deliver seamless experiences across devices and browsers.
                             </div>
                         </div>
                     </div>
@@ -239,7 +249,7 @@
                     </ul>
                 </div>
                 <div class="resume__column">
-                    <h3 class="title title_fs20 resume__column-title">Education</h3>
+                    <h3 class="title title_fs20 resume__column-title">Work Experience</h3>
                     <ul>
                         <li>
                             <div class="resume__item">
@@ -253,7 +263,7 @@
                                     <div class="resume__item-location">Udemy (2022-2023)</div>
                                 </div>
                                 <div class="resume__item-body">
-                                    I realized that I wanted to specifically focus on Front-End Development. So, I delved deeper into Front-End Development courses. Through hands-on projects and expert guidance, I honed my skills in HTML, CSS, and JavaScript. Learning the latest frameworks and librarys, like React and Vue.js, has opened up new possibilities for building responsive and dynamic web applications.
+                                    I realized that I wanted to specifically focus on Front-End Development. So, I delved deeper into Front-End Development courses. Through hands-on projects and expert guidance, I honed my skills in HTML, CSS, and JavaScript. Learning the latest frameworks and libraries, like React and Vue.js, has opened up new possibilities for building responsive and dynamic web applications.
                                 </div>
                             </div>
                         </li>
@@ -304,14 +314,14 @@
                     <div class="skills__icon">
                         <img src="icons/skills/js.svg" alt="javascript">
                     </div>
-                    <div class="title title_fs14 skills__wrapper-subtitle">Java Script</div>
+                    <div class="title title_fs14 skills__wrapper-subtitle">JavaScript</div>
                     <div class="skills__wrapper-descr">This programming language allows me to bring anything to life: sliders, pop-ups, tooltips, tabs, fetching data from the server, and much more.</div>
                 </div>
                 <div class="skills__wrapper-item">
                     <div class="skills__icon">
                         <img src="icons/skills/jquery.svg" alt="jquery">
                     </div>
-                    <div class="title title_fs14 skills__wrapper-subtitle">Jquery</div>
+                    <div class="title title_fs14 skills__wrapper-subtitle">jQuery</div>
                     <div class="skills__wrapper-descr">The jQuery library will speed up development. While it's not mandatory to integrate it into the project, I have the skillset to work with it if needed.</div>
                 </div>
                 <div class="skills__wrapper-item">
@@ -327,13 +337,13 @@
                     </div>
                     <div class="title title_fs14 skills__wrapper-subtitle">Node.js</div>
                     <div class="skills__wrapper-descr">This platform allows <br>
-                         us to develop the backend for your product – the "brains" that perform actions behind the scenes, unseen by the user.</div>
+                         us to develop the backend for your product &#8211; the "brains" that perform actions behind the scenes, unseen by the user.</div>
                 </div>
                 <div class="skills__wrapper-item">
                     <div class="skills__icon">
                         <img src="icons/skills/mongodb.svg" alt="mongo">
                     </div>
-                    <div class="title title_fs14 skills__wrapper-subtitle">Mongo.db</div>
+                    <div class="title title_fs14 skills__wrapper-subtitle">MongoDB</div>
                     <div class="skills__wrapper-descr">This is a non-relational database that will store data for your website or application.</div>
                 </div>
             </div>
@@ -393,22 +403,22 @@
 
             <div class="portfolio__wrapper">
                 <a href="https://arturfrolov.github.io/uber/" class="portfolio__item">
-                    <img src="img/myWork/uber.jpg" alt="Uber">
+                    <img src="img/myWork/uber.jpg" alt="Uber — landing page project">
                 </a>
                 <a href="https://arturfrolov.github.io/pulse/" class="portfolio__item">
-                    <img src="img/myWork/pulse.jpg" alt="Pulse">
+                    <img src="img/myWork/pulse.jpg" alt="Pulse — landing page project">
                 </a>
                 <a href="#" class="portfolio__item">
-                    <img src="img/myWork/bread.jpg" alt="test">
+                    <img src="img/myWork/bread.jpg" alt="Bread — bakery website project">
                 </a>
                 <a href="#" class="portfolio__item vertical">
-                    <img src="img/myWork/plans.jpg" alt="test">
+                    <img src="img/myWork/plans.jpg" alt="Plans — project">
                 </a>
                 <a href="#" class="portfolio__item">
-                    <img src="img/myWork/ipad.jpg" alt="test">
+                    <img src="img/myWork/ipad.jpg" alt="iPad — project">
                 </a>
                 <a href="#" class="portfolio__item horizontal">
-                    <img src="img/myWork/mac.jpg" alt="test">
+                    <img src="img/myWork/mac.jpg" alt="Mac — project">
                 </a>
             </div>
         </div>
@@ -458,7 +468,7 @@
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
-                    <img src="img/photo.jpg" alt="photo">
+                    <img src="img/photo.jpg" alt="Artur Frolov — front-end developer">
                 </div>
                 <div class="contacts__descr">
                     <div class="title title_fs16 contacts__title">Contacts</div>

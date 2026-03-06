@@ -1,6 +1,5 @@
 .promo {
     min-height: 100vh;
-    // min-height: 800px;
     position: relative;
     background: url('../img/main_bg.jpg') center center / cover no-repeat;
     @supports (background-image: image-set(url('') type("image/webp"))) {

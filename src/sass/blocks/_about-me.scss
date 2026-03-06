@@ -17,8 +17,6 @@
     }
     &__wrapper {
         padding-top: 6px;
-        // grid-column: 2/3;
-        // grid-row: 1/2;
         .divider {
             margin: 4px 0 0 0;
         }
@@ -43,8 +41,6 @@
         }
     }
     &__cart-grid {
-        // grid-column: 2/3;
-        // grid-row: 2/3;
         display: grid;
         grid-template-columns: repeat(2, 260px);
         grid-template-rows: minmax(116px, auto) minmax(116px, auto);

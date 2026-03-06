@@ -56,7 +56,7 @@
     <meta name="msapplication-TileImage" content="icons/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="preload" as="image" href="img/main_bg.jpg">
+    <link rel="preload" as="image" href="img/main_bg.webp" type="image/webp">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -142,9 +142,8 @@
                 <div class="about-me__grid">
                     <div class="about-me__photo">
                         <picture>
-                            <!-- <source type="image/webp" srcset="img/photo.webp"> -->
-                            <source media="(max-width: 575px)" srcset="img/photo_min.jpg">
-                            <source media="(min-width: 576px)" srcset="img/photo.jpg">
+                            <source media="(max-width: 575px)" srcset="img/photo_mobile.jpg">
+                            <source type="image/webp" srcset="img/photo.webp">
                             <img src="img/photo.jpg" alt="Artur Frolov — front-end developer">
                         </picture>
                     </div>
@@ -470,7 +469,11 @@
             <div class="container">
                 <div class="contacts__wrapper">
                     <div class="contacts__photo">
-                        <img src="img/photo.jpg" alt="Artur Frolov — front-end developer">
+                        <picture>
+                            <source media="(max-width: 575px)" srcset="img/photo_mobile.jpg">
+                            <source type="image/webp" srcset="img/photo.webp">
+                            <img src="img/photo.jpg" alt="Artur Frolov — front-end developer">
+                        </picture>
                     </div>
                     <div class="contacts__descr">
                         <div class="title title_fs16 contacts__title">Contacts</div>
